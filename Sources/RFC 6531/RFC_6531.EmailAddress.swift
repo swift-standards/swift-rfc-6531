@@ -1,7 +1,7 @@
-public import ASCII_Serializer_Primitives
-public import Binary_Serializable_Primitives
+public import ASCII_Serializer
+public import Binary_Serializable
 import INCITS_4_1986
-public import Parseable_ASCII_Primitives
+public import Parseable_ASCII
 public import RFC_1123
 public import RFC_5321
 public import RFC_5322
