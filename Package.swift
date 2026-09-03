@@ -39,21 +39,21 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/swift-molecules/swift-ascii-serializer.git",
+            url: "https://github.com/swift-molecules/swift-ascii-serializer",
             branch: "main"
         ),
         .package(
-            url: "https://github.com/swift-molecules/swift-ascii-parser.git",
+            url: "https://github.com/swift-molecules/swift-ascii-parser",
             branch: "main"
         ),
         .package(
-            url: "https://github.com/swift-molecules/swift-binary-serializer.git",
+            url: "https://github.com/swift-molecules/swift-binary-serializer",
             branch: "main"
         ),
-        .package(url: "https://github.com/swift-incits/swift-incits-4-1986.git", branch: "main"),
-        .package(url: "https://github.com/swift-ietf/swift-rfc-1123.git", branch: "main"),
-        .package(url: "https://github.com/swift-ietf/swift-rfc-5321.git", branch: "main"),
-        .package(url: "https://github.com/swift-ietf/swift-rfc-5322.git", branch: "main"),
+        .package(url: "https://github.com/swift-incits/swift-incits-4-1986", branch: "main"),
+        .package(url: "https://github.com/swift-ietf/swift-rfc-1123", branch: "main"),
+        .package(url: "https://github.com/swift-ietf/swift-rfc-5321", branch: "main"),
+        .package(url: "https://github.com/swift-ietf/swift-rfc-5322", branch: "main"),
     ],
     targets: [
         .target(
